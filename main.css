@@ -9,6 +9,32 @@ p
 {
     font-size: 20px;
 }
+ul
+{margin:0px;}
+
+li {
+    display: inline;
+    margin:100px;
+  }
+
+.nav
+{
+    background-color: black;
+    background-repeat: no-repeat;
+    height:100px;
+    margin-top: 0px;
+    
+}
+.navbutton
+{
+    color:white;
+    text-decoration: none;
+    padding:10px 30px;
+    border-radius: 20px;
+    font-weight: 700;
+    background-image: linear-gradient(orange,tomato);
+   
+}
 .firstsection
 {
 
@@ -55,6 +81,12 @@ padding:10px 30px;
 border-radius: 20px;
 font-weight: 700;
 background-image: linear-gradient(orange,tomato);
+}
+
+.buttonbelow
+{
+    margin-top: 40px;
+    margin-left: 200px;
 }
 .thirdsection p{
     text-align: center;
