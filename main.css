@@ -4,78 +4,52 @@ body
   
 }
 h1{
-    font-size: 60px;
-    line-height:20px;
-    
+    font-size: 50px;
+    margin: 0;
+     
 }
-h2{
-    font-size: 40px;
-    line-height:20px;
-    
-}
+
 
 p
 {
     font-size: 20px;
 }
 
-
-.firstsection
-{
-    
-}
-.section1_half
-{
-
-
-padding:100px;
-width:50%;
-margin:0 auto;
-
-}
-.section1_half2
-{
-
-width:50%;
-margin:0 auto;
-
-}
 .section1_half p
 {
     padding-top:40px;
 }
-.section2_half
+
+
+
+#section1div
 {
-    width: 50%;
-
-
-
+    
+    margin-top: 160px;
+    margin-left: 140px; 
+    width:50%;
 }
-.firstsection h1 {
-
-    margin-left: 40px;
-    margin-top: 0px;
-}
-.firstsection p {
-
-    margin-left: 40px;
-}
-.firstsection .half
+#section2div
 {
-    padding:40px;
+    
+    
+    width:80%;
+    margin:100px auto;
+    
+    
 }
-.imageclass
-{
-    height: 100%;
-    width: 100%;
-}
+
 .secondsection
 {
     background-image: url(images/shapes/7.png);
+   
+    
+    background-size: 100%;
     
     margin-top: 50px;
-    height: 550px;
+    height: 600px;
 }
+
 
 .flexible
 {
@@ -84,7 +58,8 @@ margin:0 auto;
 .half
 {
     width: 50%;
-    padding:20px;
+   
+    
 }
 .onethird
 {
@@ -105,6 +80,10 @@ margin:0 auto;
 {
     color:orange;
 }
+.graymake
+{
+    color:grey;
+}
 .buttontype
 {
 color:white;
@@ -116,13 +95,10 @@ font-weight: 900;
 font-size: 15px;
 background-image: linear-gradient(orange,tomato);
 }
-
-
-
 .buttonbelow
 {
-    margin-left: 40px;
-    margin-top: 50px;
+  
+    margin-top: 60px;
     
 }
 .buttonbelow2
@@ -131,10 +107,19 @@ background-image: linear-gradient(orange,tomato);
     margin-top: 60px;
     
 }
-#aligncenter{
+.aligncenter{
     text-align: center;
 }
-.thirdsection h1
+.thirdsection
+{
+    padding-top: 30px;
+}
+.thirdsectiondiv h1
+{
+    text-align: center;
+    
+}
+.thirdsectiondiv h2
 {
     text-align: center;
 }
@@ -144,42 +129,49 @@ background-image: linear-gradient(orange,tomato);
     margin: 0 auto;
    
 }
-
+.forthsection
+{
+    padding-top: 30px;
+}
+.forthsection h1
+{
+   
+    margin-bottom: 40px;
+}
 .forthsectiondiv 
 {
    margin-left :50px;
    padding: 10px;
 }
+.forthsection p
+{
+margin-left: 30px;
+}
 .forthsection h1
 {
     text-align: center;
+
 }
-
-
 .recepie
 {
    
-  
     width: 90%;
     margin:0 auto;
-    
 
     
-    
+}
+.recepie h1{
+    font-size: 40px;
+    padding: 0%;
 }
 .recepie_element
 {
+  
     box-shadow: 5px 5px 40px gray;
     border-radius: 20px;
-    width: 30%;
-    margin:20px;
-    
-   
-    
-    height:400px;;
-    
-
-
+    width: 26%;
+    margin:40px;
+    height:450px;;
 }
 .recepie_element img{
     width:100%;
@@ -189,22 +181,22 @@ background-image: linear-gradient(orange,tomato);
 .footer
 {
     height:50%;
-    width: 100%;
-   
+    width: 100%; 
     background-color: black;
     color:white;
     text-align: center;
     padding:20px;
     
 }
+.fifthsection
+{
+    margin-top: 30px;
+}
 .footer div
 {
     padding-bottom: 50px;
     
-    
-    
 }
-
 .footer h1
 {
     padding-top:20px
