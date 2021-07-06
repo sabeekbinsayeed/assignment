@@ -8,8 +8,6 @@ h1{
     margin: 0;
      
 }
-
-
 p
 {
     font-size: 20px;
@@ -20,8 +18,6 @@ p
     padding-top:40px;
 }
 
-
-
 #section1div
 {
     
@@ -30,24 +26,16 @@ p
     width:50%;
 }
 #section2div
-{
-    
-    
+{    
     width:80%;
-    margin:100px auto;
-    
-    
+    margin:100px auto;   
 }
-
 .secondsection
 {
     background-image: url(images/shapes/7.png);
-   
-    
     background-size: 100%;
-    
-    margin-top: 50px;
-    height: 600px;
+     margin-top: 50px;
+     height: 600px;
 }
 
 
@@ -59,7 +47,6 @@ p
 {
     width: 50%;
    
-    
 }
 .onethird
 {
@@ -88,16 +75,15 @@ p
 {
 color:white;
 text-decoration: none;
-
 padding:20px 20px;
 border-radius: 25px;
 font-weight: 900;
 font-size: 15px;
 background-image: linear-gradient(orange,tomato);
 }
+
 .buttonbelow
-{
-  
+{ 
     margin-top: 60px;
     
 }
@@ -154,11 +140,9 @@ margin-left: 30px;
 }
 .recepie
 {
-   
-    width: 90%;
+   width: 90%;
     margin:0 auto;
-
-    
+ 
 }
 .recepie h1{
     font-size: 40px;
@@ -166,11 +150,11 @@ margin-left: 30px;
 }
 .recepie_element
 {
-  
     box-shadow: 5px 5px 40px gray;
     border-radius: 20px;
     width: 26%;
     margin:40px;
+    padding: 20px;;
     height:450px;;
 }
 .recepie_element img{
@@ -186,11 +170,10 @@ margin-left: 30px;
     color:white;
     text-align: center;
     padding:20px;
-    
 }
 .fifthsection
 {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .footer div
 {
